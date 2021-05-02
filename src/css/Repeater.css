@@ -1,0 +1,14 @@
+#beds {
+    color:#007f88;
+    width: calc(100vw - 400px);
+    float: right;
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #beds {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+}
