@@ -1,14 +1,16 @@
-#beds {
+#repeater {
     color:#007f88;
     width: calc(100vw - 400px);
     float: right;
-    padding-top: 80px;
+    padding-top: 90px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1000px) {
-    #beds {
+    #repeater {
       float: none;
       width: 100%;
       text-align: center;
+      padding-top: 10px;
     }
 }
